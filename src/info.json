@@ -1,9 +1,13 @@
 {
-    "keyboard_name": "Dactyl ProMicro",
+    "keyboard_name": "Dactyl-6x6-modded",
+    "manufacturer": "tshort"
     "url": "",
     "maintainer": "qmk",
-    "width": 17,
-    "height": 8,
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x3060",
+        "device_version": "0.0.1"
+    },
     "layouts": {
         "LAYOUT_6x6": {
             "layout": [
@@ -55,28 +59,26 @@
                 {"label":"R33", "x":14, "y":3},
                 {"label":"R34", "x":15, "y":3},
                 {"label":"R35", "x":16, "y":3},
-                {"label":"L40", "x":0, "y":4},
                 {"label":"L41", "x":1, "y":4},
                 {"label":"L42", "x":2, "y":4},
                 {"label":"L43", "x":3, "y":4},
                 {"label":"L44", "x":4, "y":4},
-                {"label":"L45", "x":5, "y":6, "h":2},
-                {"label":"R40", "x":11, "y":6, "h":2 },
                 {"label":"R41", "x":12, "y":4},
                 {"label":"R42", "x":13, "y":4},
                 {"label":"R43", "x":14, "y":4},
                 {"label":"R44", "x":15, "y":4},
-                {"label":"R45", "x":16, "y":4},
-                {"label":"L55", "x":6, "y":6, "h":2 },
-                {"label":"L51", "x":6, "y":5},
-                {"label":"L52", "x":7, "y":5},
-                {"label":"R53", "x":9, "y":5},
-                {"label":"R54", "x":10, "y":5},
-                {"label":"R50", "x":10, "y":6, "h":2 },
-                {"label":"L53", "x":7, "y":6},
-                {"label":"R52", "x":9, "y":6},
-                {"label":"L54", "x":7, "y":7},
-                {"label":"R51", "x":9, "y":7}
+                {"label":"R54", "x":9, "y":5},
+                {"label":"R53", "x":10, "y":5},
+                {"label":"R52", "x":11, "y":5},
+                {"label":"R51", "x":12, "y":5},
+                {"label":"L51", "x":8, "y":6, "h":2 },
+                {"label":"L52", "x":9, "y":6, "h":2 },
+                {"label":"L55", "x":10, "y":6},
+                {"label":"R50", "x":11, "y":6, "h":2 },
+                {"label":"R53", "x":12, "y":6, "h":2 },
+                {"label":"R54", "x":13, "y":6},
+                {"label":"R55", "x":10, "y":7},
+                {"label":"L50", "x":11, "y":7},
             ]
         }
     }

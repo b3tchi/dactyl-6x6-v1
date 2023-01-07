@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #include "config_common.h"
-#define PRODUCT         Dactyl Ergo(6x6)
+// #define PRODUCT         Dactyl Ergo(6x6)
 
 /* key matrix size */
 // Rows are doubled-up
@@ -43,12 +43,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION COL2ROW
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x3060
-#define DEVICE_VER      0x0001
+// #define VENDOR_ID  /     0xFEED
+// #define PRODUCT_ID      0x3060
+// #define DEVICE_VER      0x0001
 //#define MANUFACTURER    tshort
 // defined in subfolder
-#define DESCRIPTION     A split keyboard
+// #define DESCRIPTION     A split keyboard
 
 /* mouse config */
 #define MOUSEKEY_INTERVAL       20
