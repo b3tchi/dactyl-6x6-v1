@@ -1,6 +1,13 @@
 #!/bin/bash
 root_path="$(realpath "$(dirname $0)/..")"
 
+#check layout
+if [[ -z "$1" ]]; then
+  layout=default
+else
+  layout="$1"
+fi
+
 # echo "$root_path"
 repo_name="$(basename -s .git `git config --get remote.origin.url`)"
 
@@ -25,4 +32,4 @@ cp -rv "$root_path/src" -T "$root_path/bin/keyboards/handwired/dactyl_promicro"
 #build
 cd "$root_path/bin"
 
-qmk compile -kb handwired/dactyl_promicro -km dvorak
+qmk compile -kb handwired/dactyl_promicro -km "$layout"
