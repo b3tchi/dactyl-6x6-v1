@@ -25,4 +25,4 @@ cp -rv "$root_path/src" -T "$root_path/bin/keyboards/handwired/dactyl_promicro"
 #build
 cd "$root_path/bin"
 
-qmk compile -kb handwired/dactyl_promicro -km default
+qmk compile -kb handwired/dactyl_promicro -km dvorak
