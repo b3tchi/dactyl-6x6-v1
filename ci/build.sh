@@ -17,7 +17,6 @@ run_path="$HOME/tmp/$repo_name/qmk_firmware"
 # mkdir -p "$run_path"
 
 if [[ ! -d "$run_path" ]]; then
-  # echo "$root_path"
   qmk setup --home "$run_path"
 fi
 
